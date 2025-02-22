@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35818.85 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeycloakExample.AppHost", "KeycloakExample.AppHost\KeycloakExample.AppHost.csproj", "{603AFD6F-7C5A-47D4-8B25-9E47E4F42FEC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeycloakExample.AppHost", "KeycloakExample.AppHost\KeycloakExample.AppHost.csproj", "{DF7F1ED8-0B05-421E-A9FB-782CF81C2F5B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeycloakExample.ServiceDefaults", "KeycloakExample.ServiceDefaults\KeycloakExample.ServiceDefaults.csproj", "{684761F5-01C1-BD10-AF81-3C8FEF358543}"
 EndProject
@@ -16,10 +16,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{603AFD6F-7C5A-47D4-8B25-9E47E4F42FEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{603AFD6F-7C5A-47D4-8B25-9E47E4F42FEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{603AFD6F-7C5A-47D4-8B25-9E47E4F42FEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{603AFD6F-7C5A-47D4-8B25-9E47E4F42FEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF7F1ED8-0B05-421E-A9FB-782CF81C2F5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF7F1ED8-0B05-421E-A9FB-782CF81C2F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF7F1ED8-0B05-421E-A9FB-782CF81C2F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF7F1ED8-0B05-421E-A9FB-782CF81C2F5B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{684761F5-01C1-BD10-AF81-3C8FEF358543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{684761F5-01C1-BD10-AF81-3C8FEF358543}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{684761F5-01C1-BD10-AF81-3C8FEF358543}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -37,6 +37,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {43B36E6F-64E8-4E22-939F-51D78A776681}
+		SolutionGuid = {74985653-F4F7-459D-B73E-270EC19896AF}
 	EndGlobalSection
 EndGlobal
