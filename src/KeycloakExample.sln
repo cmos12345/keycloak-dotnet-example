@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeycloakExample.AppHost", "KeycloakExample.AppHost\KeycloakExample.AppHost.csproj", "{603AFD6F-7C5A-47D4-8B25-9E47E4F42FEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeycloakExample.ServiceDefaults", "KeycloakExample.ServiceDefaults\KeycloakExample.ServiceDefaults.csproj", "{684761F5-01C1-BD10-AF81-3C8FEF358543}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeycloakExample.ApiService", "KeycloakExample.ApiService\KeycloakExample.ApiService.csproj", "{2944716C-F41E-254C-B703-A2261788D096}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeycloakExample.Web", "KeycloakExample.Web\KeycloakExample.Web.csproj", "{7516CAEA-AA9E-55C0-2B14-597D3C704887}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{603AFD6F-7C5A-47D4-8B25-9E47E4F42FEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{603AFD6F-7C5A-47D4-8B25-9E47E4F42FEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{603AFD6F-7C5A-47D4-8B25-9E47E4F42FEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{603AFD6F-7C5A-47D4-8B25-9E47E4F42FEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{684761F5-01C1-BD10-AF81-3C8FEF358543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{684761F5-01C1-BD10-AF81-3C8FEF358543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{684761F5-01C1-BD10-AF81-3C8FEF358543}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{684761F5-01C1-BD10-AF81-3C8FEF358543}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2944716C-F41E-254C-B703-A2261788D096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2944716C-F41E-254C-B703-A2261788D096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2944716C-F41E-254C-B703-A2261788D096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2944716C-F41E-254C-B703-A2261788D096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7516CAEA-AA9E-55C0-2B14-597D3C704887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7516CAEA-AA9E-55C0-2B14-597D3C704887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7516CAEA-AA9E-55C0-2B14-597D3C704887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7516CAEA-AA9E-55C0-2B14-597D3C704887}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43B36E6F-64E8-4E22-939F-51D78A776681}
+	EndGlobalSection
+EndGlobal
