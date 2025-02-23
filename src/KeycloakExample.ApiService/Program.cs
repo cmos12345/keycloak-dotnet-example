@@ -9,6 +9,18 @@ builder.Services.AddProblemDetails();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
+// KeycloakExample
+// Configuring our API to use Keycloak JWT authentication.
+// The AddKeycloakJwtBearer extension is provided by the Aspire.Keycloak.Authentication NuGet package.
+builder.Services.AddAuthentication()
+                .AddKeycloakJwtBearer("keycloak", realm: "WeatherShop", options =>
+                {
+                    options.RequireHttpsMetadata = false;
+                    options.Audience = "weather.api";
+                });
+
+builder.Services.AddAuthorizationBuilder();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -33,7 +45,7 @@ app.MapGet("/weatherforecast", () =>
         .ToArray();
     return forecast;
 })
-.WithName("GetWeatherForecast");
+.RequireAuthorization(); // KeycloakExample: Protecting the endpoint.
 
 app.MapDefaultEndpoints();
 
